@@ -15,7 +15,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  margin: 30px 0;
+  margin: auto;
+  width: 500px;
 }
 .btn-primary {
   color: #ffffff;
@@ -23,6 +24,13 @@ body {
   border-radius: 8px;
   padding: 20px 43px;
   border-style: none;
+}
+
+.section-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 25px;
 }
 
 /* nav_styles */
@@ -40,14 +48,82 @@ body {
 .flower-info {
   padding: 140px 200px;
 }
-.flower-caption {
+.flower-title {
   color: #272727;
   font-size: 80px;
   font-weight: 800;
 }
+.flower-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 30px 0;
+}
 
 /* main_styles */
-
+.top-flowers-container {
+  text-align: center;
+  margin: 150px 0;
+}
 .top-flowers-contents {
   display: flex;
+  align-items: end;
+  margin: 50px 350px;
+  gap: 20px;
+  height: 550px;
+  width: 450px;
+}
+.top-flowers-1 {
+  background-color: rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0px 0px;
+}
+.top-flowers-img-1 {
+  margin-top: 122px;
+}
+.top-flowers-2 {
+  background-color: rgba(5, 151, 160, 0.15);
+  border-radius: 300px 300px 0px 0px;
+}
+.top-flowers-3 {
+  background-color: rgba(71, 125, 17, 0.15);
+  border-radius: 300px 300px 0px 0px;
+}
+.top-flowers-img-3 {
+  margin-top: 80px;
+}
+
+/* services_styles */
+
+.services-container {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 80px;
+  width: 70%;
+  margin: auto;
+}
+.services-contents {
+  text-align: center;
+}
+
+/* sale_styles */
+
+.sale-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(229, 84, 115, 0.05);
+  margin: 110px 0;
+  padding: 100px;
+}
+span {
+  color: rgba(229, 84, 115, 1);
+}
+.sale-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
