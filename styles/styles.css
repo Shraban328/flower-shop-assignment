@@ -47,3 +47,7 @@ body {
 }
 
 /* main_styles */
+
+.top-flowers-contents {
+  display: flex;
+}
