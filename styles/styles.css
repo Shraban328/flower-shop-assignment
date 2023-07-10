@@ -118,12 +118,17 @@ body {
   margin: 110px 0;
   padding: 100px;
 }
+.sale-contents {
+  text-align: left;
+}
 span {
   color: rgba(229, 84, 115, 1);
 }
+
 .sale-description {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px;
+  width: 700px;
+  margin-bottom: 30px;
 }
