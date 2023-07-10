@@ -166,6 +166,8 @@ span {
 .footer-container {
   background-color: #111010;
   text-align: center;
+  padding: 100px;
+  align-items: center;
 }
 .footer-title {
   color: #ffffff;
