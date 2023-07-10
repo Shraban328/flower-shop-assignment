@@ -132,3 +132,55 @@ span {
   width: 700px;
   margin-bottom: 30px;
 }
+
+/* instagram_styles */
+
+.instagram-container {
+  text-align: center;
+}
+.flower-highlights {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 30px 0;
+}
+
+/* deals-styles */
+
+.deals-container {
+  background-image: url("../images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 200px;
+}
+
+.subscribe-email-opt {
+  padding: 15px 300px 15px 20px;
+  border-style: none;
+  margin: 50px 0;
+}
+
+/* footer_styles */
+
+.footer-container {
+  background-color: #111010;
+  text-align: center;
+}
+.footer-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  width: 720px;
+  margin: auto;
+}
+.copyright-disclaimer {
+  color: #ffffff66;
+  margin: 50px 0;
+}
