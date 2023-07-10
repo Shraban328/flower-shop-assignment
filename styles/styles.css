@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* common_shared_styles */
+
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 30px 0;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #e55473;
+  border-radius: 8px;
+  padding: 20px 43px;
+  border-style: none;
+}
+
+/* nav_styles */
+
+.flower-container {
+  background-color: rgba(229, 84, 115, 0.1);
+  height: 850px;
+  display: flex;
+  padding: 50px;
+}
+.flower-contents {
+  display: flex;
+  margin-top: 100px;
+}
+.flower-info {
+  padding: 140px 200px;
+}
+.flower-caption {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+
+/* main_styles */
