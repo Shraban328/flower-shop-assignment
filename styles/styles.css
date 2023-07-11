@@ -31,7 +31,6 @@ body {
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 25px;
-  text-align: center;
 }
 
 /* nav_styles */
@@ -63,7 +62,10 @@ body {
 }
 
 /* main_styles */
-
+.top-flowers-container {
+  margin-top: 100px;
+  text-align: center;
+}
 .top-flowers-contents {
   display: flex;
   justify-content: space-evenly;
@@ -72,6 +74,13 @@ body {
 }
 .top-flowers {
   text-align: center;
+}
+.top-flower-text {
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
 }
 .top-flower-1 {
   border-radius: 300px 300px 0px 0px;
