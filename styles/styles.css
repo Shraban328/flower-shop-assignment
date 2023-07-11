@@ -62,37 +62,12 @@ body {
 }
 
 /* main_styles */
-.top-flowers-container {
-  text-align: center;
-  margin: 150px 0;
-}
+
 .top-flowers-contents {
   display: flex;
+  justify-content: center;
   align-items: end;
-  margin: 50px 350px;
-  gap: 20px;
-  height: 550px;
-  width: 450px;
 }
-.top-flowers-1 {
-  background-color: rgba(167, 33, 98, 0.15);
-  border-radius: 300px 300px 0px 0px;
-}
-.top-flowers-img-1 {
-  margin-top: 122px;
-}
-.top-flowers-2 {
-  background-color: rgba(5, 151, 160, 0.15);
-  border-radius: 300px 300px 0px 0px;
-}
-.top-flowers-3 {
-  background-color: rgba(71, 125, 17, 0.15);
-  border-radius: 300px 300px 0px 0px;
-}
-.top-flowers-img-3 {
-  margin-top: 80px;
-}
-
 /* services_styles */
 
 .services-container {
